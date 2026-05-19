@@ -1,3 +1,9 @@
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
+![Kubernetes](https://img.shields.io/badge/DevOps-Kubernetes-326ce5)
+![Grafana](https://img.shields.io/badge/Monitoring-Grafana-orange)
+![Prometheus](https://img.shields.io/badge/Metrics-Prometheus-red)
+![Ollama](https://img.shields.io/badge/AI-Ollama-black)
 # 🚀 KubePilot
 
 AI-powered Kubernetes troubleshooting platform built with FastAPI, React, Kubernetes, Ollama, Prometheus, and Grafana.
