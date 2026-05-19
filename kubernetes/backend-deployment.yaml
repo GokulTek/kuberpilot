@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: kubepilot-backend
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: kubepilot-backend
+
+  template:
+    metadata:
+      labels:
+        app: kubepilot-backend
+
+    spec:
+      containers:
+      - name: backend
+        image: kubepilot-backend
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 8000
